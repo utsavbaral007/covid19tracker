@@ -1,0 +1,22 @@
+.table {
+	margin: 1rem 0;
+	height: 50vh;
+	overflow: scroll;
+}
+.table::-webkit-scrollbar {
+	display: none;
+}
+.table table{
+    width: 100%;
+}
+.table tbody tr {
+    display: flex;
+    justify-content: space-between;
+}
+tbody tr td{
+    padding: 0.5rem;
+}
+
+.table tr:nth-of-type(odd) {
+	background-color: #e4e4e4;
+}
